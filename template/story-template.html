@@ -3,42 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0c0a0f">
+  <meta name="theme-color" content="#0b0810">
   <meta name="description" content="Sinscripted illustrated intro.">
   <title>Story Title — Sinscripted</title>
+  <link rel="icon" href="/assets/brand/sinscripted-mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body class="story-page">
   <div class="grain" aria-hidden="true"></div>
-
   <header class="site-header compact">
     <a class="brand" href="/">
-      <span class="brand-mark">S</span>
+      <img class="brand-mark-img" src="/assets/brand/sinscripted-mark.svg" alt="">
       <span class="brand-text">Sinscripted</span>
     </a>
     <a class="back-link" href="/">← Library</a>
   </header>
-
   <main>
-    <section class="story-hero">
-      <p class="eyebrow">Illustrated intro</p>
-      <h1>Story Title</h1>
-      <p class="story-deck">One-line hook goes here.</p>
-      <div class="tag-row center">
-        <span>Tag one</span>
-        <span>Tag two</span>
+    <section class="story-hero story-cosmic">
+      <div class="story-cosmic-art" aria-hidden="true"></div>
+      <div class="story-hero-content">
+        <p class="eyebrow">Sinscripted / File 000</p>
+        <h1>Story Title</h1>
+        <p class="story-deck">One-line hook goes here.</p>
       </div>
-      <p class="reader-note">Bonus prologue — the interactive story should still work without reading this first.</p>
     </section>
-
     <section class="comic-reader">
-      <!-- Replace these placeholders with image panels or custom HTML panels. -->
       <article class="comic-panel panel-storm">
         <div class="panel-number">01</div>
         <div class="panel-text bottom"><p>Panel caption.</p></div>
       </article>
     </section>
-
     <section class="after-comic">
       <p class="eyebrow">End of prologue</p>
       <h2>The rest begins inside the story.</h2>
@@ -48,12 +42,10 @@
       </div>
     </section>
   </main>
-
   <footer class="site-footer">
     <span>© <span id="year"></span> Sinscripted</span>
     <span>Stories by Sin</span>
   </footer>
-
   <script src="/js/site.js"></script>
 </body>
 </html>
