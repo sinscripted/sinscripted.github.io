@@ -1,9 +1,2 @@
-Upload both replacement files to the repository root:
-- index.html
-- maisie/index.html
-
-Changes:
-- removes 'Open the file' from inside the Maisie file
-- removes all 'link coming soon' Emochi placeholders
-- keeps the homepage 'Open story file' button
-- replaces Emochi buttons with static 'Playable on Emochi' text
+Replace only /maddie/index.html in the repository.
+This removes the entire 'Privacy is not shame' section and changes nothing else.
