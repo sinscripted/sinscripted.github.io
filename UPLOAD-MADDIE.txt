@@ -1,0 +1,19 @@
+SINSCRIPTED — FILE 002 / MADDIE CRUZ
+
+Upload the CONTENTS of this folder to the root of:
+sinscripted/sinscripted.github.io
+
+This patch adds:
+- /maddie/index.html
+- /assets/stories/maddie/*
+- updated root /index.html with FILE 002
+- homepage heading changed from "Featured story" to "Story files"
+- next-file teaser advanced to FILE 003
+
+Nothing in /maisie/ is replaced.
+
+Live route after GitHub Pages redeploys:
+https://sinscripted.github.io/maddie/
+
+The page intentionally does not link out to Emochi. It uses the static label:
+Playable on Emochi
