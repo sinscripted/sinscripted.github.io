@@ -1,0 +1,1 @@
+Upload these replacement files to the repository root. They add version query strings to CSS/JS so mobile browsers stop serving the old cached design.
