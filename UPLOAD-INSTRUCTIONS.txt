@@ -1,16 +1,2 @@
-SINSCRIPTED V2 — UPLOAD INSTRUCTIONS
-
-1. Unzip this package.
-2. Open: https://github.com/sinscripted/sinscripted.github.io
-3. Upload the CONTENTS of this folder into the repository root.
-4. Allow GitHub to replace/overwrite the existing:
-   - index.html
-   - css/styles.css
-   - js/site.js
-   - stories/story-one/index.html
-   - README.md
-5. The new assets/brand/ folder must also be uploaded.
-6. Commit the upload.
-7. GitHub Pages should redeploy automatically.
-
-Do not upload the outer "sinscripted-site-v2" folder itself.
+This package has been superseded by UPLOAD-MAISIE.txt.
+Use UPLOAD-MAISIE.txt for the current upload instructions.

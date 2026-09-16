@@ -1,0 +1,23 @@
+SINSCRIPTED — FILE 001 / MAISIE PRESCOTT
+
+UPLOAD
+
+1. Unzip this package.
+2. Open:
+   https://github.com/sinscripted/sinscripted.github.io
+3. Upload the CONTENTS of this folder into the repository root.
+4. Allow GitHub to replace existing files when names match.
+5. Commit the upload.
+6. GitHub Pages should redeploy automatically.
+
+NEW / UPDATED
+- /index.html
+- /css/styles.css
+- /maisie/index.html
+- /assets/stories/maisie/*
+
+PUBLIC SHORT URL
+https://sinscripted.github.io/maisie/
+
+NOTE
+The "Play on Emochi" buttons remain disabled until the actual Emochi story URL is supplied.

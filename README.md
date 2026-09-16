@@ -4,36 +4,23 @@ Official Sinscripted story hub.
 
 **Live URL:** https://sinscripted.github.io/
 
-## V2 visual direction
+## Current featured story
 
-- Dark gothic/editorial base
-- User-provided pink/violet nebula artwork for the brand atmosphere
-- Separate desktop and mobile hero backgrounds
-- Sinscripted monogram/fav icon
-- Featured-story-first homepage
-- Smaller "next file" teaser instead of a competing second card
-- Restrained reveal/float motion
-- Open Graph metadata for sharing
-- No creator/profile section and no profile portrait on the site
+### FILE 001 — Maisie Prescott
+Short URL: `https://sinscripted.github.io/maisie/`
 
-## Structure
+Campaign line: **Trust Me.**
 
-```text
-/
-├── index.html
-├── 404.html
-├── css/styles.css
-├── js/site.js
-├── assets/
-│   └── brand/
-│       ├── hero-desktop.png
-│       ├── hero-mobile.png
-│       ├── nebula-secondary.png
-│       └── sinscripted-mark.svg
-├── stories/
-│   └── story-one/index.html
-└── template/
-    └── story-template.html
-```
+The page includes:
+- cinematic story hero
+- earlier messages
+- illustrated opening beats
+- Maisie Prescott dossier
+- Life360 mechanic teaser
+- Jaxon dossier
+- final story CTA
 
-The first story remains a working placeholder until its final title, cover and illustrated panels are ready.
+All user-supplied artwork is served as optimized WebP assets under:
+`assets/stories/maisie/`
+
+The direct Emochi story URL is intentionally left as a placeholder until supplied.
