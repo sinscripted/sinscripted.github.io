@@ -1,2 +1,9 @@
-Upload the 'maisie' folder into the repository root and replace maisie/index.html.
-This version embeds the File 001 layout CSS directly in the page so the dossier and mobile gutters cannot be broken by a cached stylesheet.
+Upload both replacement files to the repository root:
+- index.html
+- maisie/index.html
+
+Changes:
+- removes 'Open the file' from inside the Maisie file
+- removes all 'link coming soon' Emochi placeholders
+- keeps the homepage 'Open story file' button
+- replaces Emochi buttons with static 'Playable on Emochi' text
