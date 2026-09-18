@@ -18,3 +18,11 @@ if (!prefersReducedMotion) {
 
   document.querySelectorAll('.reveal').forEach((node) => observer.observe(node));
 }
+
+// GoatCounter analytics for Sinscripted.
+// Loaded here once so every page using /js/site.js is tracked automatically.
+const goatCounterScript = document.createElement('script');
+goatCounterScript.dataset.goatcounter = 'https://sinscripted.goatcounter.com/count';
+goatCounterScript.async = true;
+goatCounterScript.src = 'https://gc.zgo.at/count.js';
+document.head.appendChild(goatCounterScript);

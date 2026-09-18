@@ -1,2 +1,11 @@
-Replace only /maddie/index.html in the repository.
-This removes the entire 'Privacy is not shame' section and changes nothing else.
+SINSCRIPTED — GOATCOUNTER ANALYTICS PATCH
+
+Replace only this file in the repository:
+  /js/site.js
+
+GoatCounter site:
+  https://sinscripted.goatcounter.com/
+
+This automatically tracks every Sinscripted page that already loads /js/site.js,
+including the homepage, /maisie/, and /maddie/.
+It makes no visible design changes.
