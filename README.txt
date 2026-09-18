@@ -1,4 +1,11 @@
-Replace only /maddie/index.html in the repository.
+SINSCRIPTED — FILE 003: DEMON KING AZARAEL
 
-This changes Maddie's script reference from /js/site.js?v=3.1 to /js/site.js?v=3.2
-so browsers fetch the current JavaScript containing the Share story button.
+Upload these items to the repository root, preserving folders:
+
+  /index.html
+  /azarael/index.html
+  /assets/stories/azarael/
+
+This package adds FILE 003 to the homepage, creates /azarael/, includes all supplied artwork, keeps GoatCounter and Share story through the existing /js/site.js, and advances Next File to 004.
+
+No Maisie or Maddie files are replaced.
