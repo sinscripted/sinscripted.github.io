@@ -1,12 +1,4 @@
-SINSCRIPTED — SHARE STORY PATCH
+Replace only /maddie/index.html in the repository.
 
-Replace only this file in the repository:
-  /js/site.js
-
-This keeps the existing GoatCounter analytics and adds a Share story button
-to story pages that use the standard final section.
-
-On supported phones/tablets it opens the native share sheet.
-Otherwise it copies the story URL and briefly shows 'Link copied ✓'.
-
-No HTML or CSS files need to be changed.
+This changes Maddie's script reference from /js/site.js?v=3.1 to /js/site.js?v=3.2
+so browsers fetch the current JavaScript containing the Share story button.
