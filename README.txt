@@ -1,15 +1,11 @@
-SINSCRIPTED — FILE 003 REVISION
+DARROW / FILE 004 — HOMEPAGE FIX
 
-Upload/replace these items in the repository root, preserving folders:
+Replace ONLY the repository-root /index.html with this file.
 
-  /azarael/index.html
-  /assets/stories/azarael/valerid-palace.webp
-  /assets/stories/azarael/vaedra.webp
+Why this is needed:
+The Darrow package you uploaded correctly added /darrow/, but it did not include
+an updated Sinscripted homepage. The homepage therefore still stopped at FILE 003
+and showed FILE 004 as 'Next file'.
 
-Changes:
-- replaces the empty Imperial-status placeholder with the Valerid Palace / Orsene artwork
-- adds Lady Vaedra using the supplied image
-- expands Sevrin, Neris, Vaedra, Elira and Corven into semi-full profiles
-- removes Azarael's dossier quote and uses no character quotes in the supporting profiles
-- keeps the existing character artwork for Sevrin, Neris, Elira and Corven
-- keeps existing GoatCounter analytics and Share story behavior via /js/site.js
+This replacement adds the Darrow card to the library and advances the teaser to FILE 005.
+It uses the existing /darrow/assets/darrow-card-480.webp already in your repo.

@@ -18,12 +18,56 @@
 .platform-note{margin:14px 0 0;color:#9e8f9a;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;text-align:center}
 .centered-note{margin:0 0 18px;text-align:center;color:#c1b0bb}
 .story-stack{display:grid;gap:28px}
+
 .maddie-feature{background:radial-gradient(circle at 0% 0%,rgba(66,105,160,.13),transparent 30rem),radial-gradient(circle at 100% 100%,rgba(220,188,136,.08),transparent 28rem),linear-gradient(180deg,rgba(255,255,255,.038),rgba(255,255,255,.018))}
 .maddie-cover{position:relative;overflow:hidden;background:#0c0c12}.maddie-cover img{width:100%;height:100%;min-height:620px;object-fit:cover;object-position:center 28%;transition:transform .7s cubic-bezier(.2,.65,.25,1)}.motion-ok .maddie-cover:hover img{transform:scale(1.025)}.maddie-cover .cover-copy{z-index:2}.maddie-cover .cover-copy small{order:-1;color:#d7e5f5;font-family:var(--serif);font-size:18px;text-transform:none;font-style:italic;letter-spacing:.02em}.maddie-cover .cover-copy strong{max-width:560px;font-size:clamp(50px,6vw,82px)}.maddie-feature .story-index{color:#8ea6c2}.maddie-feature .tag-row span{border-color:rgba(123,158,200,.20);background:rgba(102,137,180,.055);color:#c3d2e3}.maddie-feature .large-hook{color:#eef3f8}.maddie-feature .story-description{color:#b8b5bb}.maddie-feature .featured-cover{grid-column:2;grid-row:1}.maddie-feature .featured-copy{grid-column:1;grid-row:1}
+
 .azarael-feature{background:radial-gradient(circle at 0% 0%,rgba(133,38,43,.12),transparent 30rem),radial-gradient(circle at 100% 100%,rgba(190,145,73,.08),transparent 28rem),linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.015));border-color:rgba(189,145,78,.15)}
 .azarael-cover{position:relative;overflow:hidden;background:#09090b}.azarael-cover img{width:100%;height:100%;min-height:620px;object-fit:cover;object-position:center 24%;transition:transform .7s cubic-bezier(.2,.65,.25,1)}.motion-ok .azarael-cover:hover img{transform:scale(1.025)}.azarael-cover .cover-copy{z-index:2}.azarael-cover .cover-copy small{order:-1;color:#d9b67a;font-family:var(--serif);font-size:18px;text-transform:none;font-style:italic;letter-spacing:.02em}.azarael-cover .cover-copy strong{max-width:560px;font-size:clamp(50px,6vw,82px)}.azarael-feature .story-index{color:#b99359}.azarael-feature .tag-row span{border-color:rgba(196,150,78,.20);background:rgba(129,75,42,.07);color:#ddc59c}.azarael-feature .large-hook{color:#f4eee7}.azarael-feature .story-description{color:#bbb3ad}
-@media(max-width:860px){.maddie-feature .featured-cover,.maddie-feature .featured-copy{grid-column:auto;grid-row:auto}.maddie-feature .featured-cover{order:1}.maddie-feature .featured-copy{order:2}.maddie-cover img,.azarael-cover img{min-height:500px}}
-@media(max-width:520px){.maddie-cover img,.azarael-cover img{min-height:430px}}
+
+.darrow-feature{
+  background:
+    radial-gradient(circle at 0% 0%,rgba(189,152,55,.11),transparent 30rem),
+    radial-gradient(circle at 100% 100%,rgba(91,108,127,.10),transparent 28rem),
+    linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.016));
+  border-color:rgba(189,152,55,.15)
+}
+.darrow-cover{position:relative;overflow:hidden;background:#101319}
+.darrow-cover img{
+  width:100%;height:100%;min-height:620px;
+  object-fit:cover;object-position:center 28%;
+  transition:transform .7s cubic-bezier(.2,.65,.25,1)
+}
+.motion-ok .darrow-cover:hover img{transform:scale(1.025)}
+.darrow-cover .cover-copy{z-index:2}
+.darrow-cover .cover-copy small{
+  order:-1;color:#d8c26c;font-family:var(--serif);font-size:18px;
+  text-transform:none;font-style:italic;letter-spacing:.02em
+}
+.darrow-cover .cover-copy strong{max-width:560px;font-size:clamp(50px,6vw,82px)}
+.darrow-feature .story-index{color:#c8ad55}
+.darrow-feature .tag-row span{
+  border-color:rgba(202,174,86,.20);
+  background:rgba(154,126,53,.06);
+  color:#ddd0a0
+}
+.darrow-feature .large-hook{color:#f1efe8}
+.darrow-feature .story-description{color:#b8b8b7}
+.darrow-feature .featured-cover{grid-column:2;grid-row:1}
+.darrow-feature .featured-copy{grid-column:1;grid-row:1}
+
+@media(max-width:860px){
+  .maddie-feature .featured-cover,.maddie-feature .featured-copy,
+  .darrow-feature .featured-cover,.darrow-feature .featured-copy{
+    grid-column:auto;grid-row:auto
+  }
+  .maddie-feature .featured-cover,.darrow-feature .featured-cover{order:1}
+  .maddie-feature .featured-copy,.darrow-feature .featured-copy{order:2}
+  .maddie-cover img,.azarael-cover img,.darrow-cover img{min-height:500px}
+}
+@media(max-width:520px){
+  .maddie-cover img,.azarael-cover img,.darrow-cover img{min-height:430px}
+}
 </style>
 </head>
 <body>
@@ -33,11 +77,79 @@
 <section class="hero cosmic-hero"><div class="hero-art" aria-hidden="true"></div><div class="hero-overlay" aria-hidden="true"></div><div class="hero-inner reveal"><p class="eyebrow">Stories by Sin</p><h1>Romance, ruin, and the <em>beautifully strange.</em></h1><p class="hero-copy">Illustrated scenes, character dossiers, and bonus story files for worlds made to begin in one place and haunt you somewhere else.</p><a class="button primary" href="#stories">Enter the library</a></div><div class="hero-brandmark reveal" aria-hidden="true"><img src="/assets/brand/sinscripted-mark.svg" alt=""></div></section>
 <section class="library section" id="stories"><div class="section-heading reveal"><div><p class="eyebrow">The library</p><h2>Story files</h2></div><p class="section-note">Bonus lore. Optional obsession.</p></div>
 <div class="story-stack">
-<article class="featured-story maisie-feature reveal"><a class="featured-cover cover-link maisie-cover" href="/maisie/" aria-label="Open the Maisie Prescott story file"><img src="/assets/stories/maisie/hero-card.webp" alt="Maisie Prescott beside Jaxon outside Cinema 2 at Northpoint Mall"><div class="cover-shade" aria-hidden="true"></div><div class="file-badge">SINSCRIPTED / FILE 001</div><div class="cover-copy"><small>Trust Me.</small><strong>Maisie Prescott</strong></div></a><div class="featured-copy"><p class="story-index">FILE 001</p><div class="tag-row" aria-label="Story tags"><span>Relationship Drama</span><span>Suspicion</span><span>Slow Reveal</span></div><p class="feature-subtitle">Trust Me.</p><p class="hook large-hook">You left for popcorn. Now Jaxon has his arm around Maisie.</p><p class="story-description">He already knows your name. She says something came up. She still hasn’t pulled away.</p><div class="card-actions"><a class="button primary" href="/maisie/">Open story file</a></div><p class="platform-note">Playable on Emochi</p></div></article>
-<article class="featured-story maddie-feature reveal"><a class="featured-cover cover-link maddie-cover" href="/maddie/" aria-label="Open the Transgender Cheerleader Maddie Cruz story file"><img src="/assets/stories/maddie/poster-card.webp" alt="Maddie Cruz in her blue, red and white Creston University cheer uniform"><div class="cover-shade" aria-hidden="true"></div><div class="file-badge">SINSCRIPTED / FILE 002</div><div class="cover-copy"><small>Transgender Cheerleader</small><strong>Maddie Cruz</strong></div></a><div class="featured-copy"><p class="story-index">FILE 002</p><div class="tag-row" aria-label="Story tags"><span>Campus Drama</span><span>Privacy</span><span>Social Pressure</span></div><p class="hook large-hook">One unlocked door. One secret you weren’t meant to see.</p><p class="story-description">Maddie Cruz is nineteen, wildly popular, and captain of Creston University’s varsity cheer squad. Now you know the one part of her life she has always kept private.</p><div class="card-actions"><a class="button primary" href="/maddie/">Open story file</a></div><p class="platform-note">Playable on Emochi</p></div></article>
-<article class="featured-story azarael-feature reveal"><a class="featured-cover cover-link azarael-cover" href="/azarael/" aria-label="Open the Demon King Azarael story file"><img src="/assets/stories/azarael/poster-card.webp" alt="Azarael, Demon King of the Valerid Empire"><div class="cover-shade" aria-hidden="true"></div><div class="file-badge">SINSCRIPTED / FILE 003</div><div class="cover-copy"><small>Demon King</small><strong>Azarael</strong></div></a><div class="featured-copy"><p class="story-index">FILE 003</p><div class="tag-row" aria-label="Story tags"><span>Dark Romantasy</span><span>Imperial Court</span><span>Forced Proximity</span></div><p class="hook large-hook">Months of searching. Hundreds of mortals. Then he looks at you.</p><p class="story-description">Azarael is the last male of House Valerid. One involuntary reaction makes you the only known mortal capable of preserving his dynasty.</p><div class="card-actions"><a class="button primary" href="/azarael/">Open story file</a></div><p class="platform-note">Playable on Emochi</p></div></article>
+
+<article class="featured-story maisie-feature reveal">
+  <a class="featured-cover cover-link maisie-cover" href="/maisie/" aria-label="Open the Maisie Prescott story file">
+    <img src="/assets/stories/maisie/hero-card.webp" alt="Maisie Prescott beside Jaxon outside Cinema 2 at Northpoint Mall">
+    <div class="cover-shade" aria-hidden="true"></div>
+    <div class="file-badge">SINSCRIPTED / FILE 001</div>
+    <div class="cover-copy"><small>Trust Me.</small><strong>Maisie Prescott</strong></div>
+  </a>
+  <div class="featured-copy">
+    <p class="story-index">FILE 001</p>
+    <div class="tag-row" aria-label="Story tags"><span>Relationship Drama</span><span>Suspicion</span><span>Slow Reveal</span></div>
+    <p class="feature-subtitle">Trust Me.</p>
+    <p class="hook large-hook">You left for popcorn. Now Jaxon has his arm around Maisie.</p>
+    <p class="story-description">He already knows your name. She says something came up. She still hasn’t pulled away.</p>
+    <div class="card-actions"><a class="button primary" href="/maisie/">Open story file</a></div>
+    <p class="platform-note">Playable on Emochi</p>
+  </div>
+</article>
+
+<article class="featured-story maddie-feature reveal">
+  <a class="featured-cover cover-link maddie-cover" href="/maddie/" aria-label="Open the Transgender Cheerleader Maddie Cruz story file">
+    <img src="/assets/stories/maddie/poster-card.webp" alt="Maddie Cruz in her blue, red and white Creston University cheer uniform">
+    <div class="cover-shade" aria-hidden="true"></div>
+    <div class="file-badge">SINSCRIPTED / FILE 002</div>
+    <div class="cover-copy"><small>Transgender Cheerleader</small><strong>Maddie Cruz</strong></div>
+  </a>
+  <div class="featured-copy">
+    <p class="story-index">FILE 002</p>
+    <div class="tag-row" aria-label="Story tags"><span>Campus Drama</span><span>Privacy</span><span>Social Pressure</span></div>
+    <p class="hook large-hook">One unlocked door. One secret you weren’t meant to see.</p>
+    <p class="story-description">Maddie Cruz is nineteen, wildly popular, and captain of Creston University’s varsity cheer squad. Now you know the one part of her life she has always kept private.</p>
+    <div class="card-actions"><a class="button primary" href="/maddie/">Open story file</a></div>
+    <p class="platform-note">Playable on Emochi</p>
+  </div>
+</article>
+
+<article class="featured-story azarael-feature reveal">
+  <a class="featured-cover cover-link azarael-cover" href="/azarael/" aria-label="Open the Demon King Azarael story file">
+    <img src="/assets/stories/azarael/poster-card.webp" alt="Azarael, Demon King of the Valerid Empire">
+    <div class="cover-shade" aria-hidden="true"></div>
+    <div class="file-badge">SINSCRIPTED / FILE 003</div>
+    <div class="cover-copy"><small>Demon King</small><strong>Azarael</strong></div>
+  </a>
+  <div class="featured-copy">
+    <p class="story-index">FILE 003</p>
+    <div class="tag-row" aria-label="Story tags"><span>Dark Romantasy</span><span>Imperial Court</span><span>Forced Proximity</span></div>
+    <p class="hook large-hook">Months of searching. Hundreds of mortals. Then he looks at you.</p>
+    <p class="story-description">Azarael is the last male of House Valerid. One involuntary reaction makes you the only known mortal capable of preserving his dynasty.</p>
+    <div class="card-actions"><a class="button primary" href="/azarael/">Open story file</a></div>
+    <p class="platform-note">Playable on Emochi</p>
+  </div>
+</article>
+
+<article class="featured-story darrow-feature reveal">
+  <a class="featured-cover cover-link darrow-cover" href="/darrow/" aria-label="Open the Darrow story file">
+    <img src="/darrow/assets/darrow-card-480.webp" alt="Darrow University story artwork">
+    <div class="cover-shade" aria-hidden="true"></div>
+    <div class="file-badge">SINSCRIPTED / FILE 004</div>
+    <div class="cover-copy"><small>Everybody Heard.</small><strong>Darrow</strong></div>
+  </a>
+  <div class="featured-copy">
+    <p class="story-index">FILE 004</p>
+    <div class="tag-row" aria-label="Story tags"><span>Campus Drama</span><span>False Accusation</span><span>University Life</span></div>
+    <p class="hook large-hook">Darrow’s golden girl slaps you in front of everyone. Her next words silence the crowd.</p>
+    <p class="story-description">A public accusation turns your first year at Darrow University upside down. Friends, classes, rumors and ordinary university life continue while the campus decides what it believes.</p>
+    <div class="card-actions"><a class="button primary" href="/darrow/">Open story file</a></div>
+    <p class="platform-note">Playable on Emochi</p>
+  </div>
+</article>
+
 </div>
-<div class="next-file reveal"><div><p class="eyebrow">Next file</p><h3>Something is coming.</h3><p>Another story gets its own file next.</p></div><span class="next-file-number">004</span></div></section>
+<div class="next-file reveal"><div><p class="eyebrow">Next file</p><h3>Something is coming.</h3><p>Another story gets its own file next.</p></div><span class="next-file-number">005</span></div></section>
 </main>
 <footer class="site-footer"><span>© <span id="year"></span> Sinscripted</span><span>Stories by Sin</span></footer><script src="/js/site.js?v=3.3"></script>
-</body></html>
+</body>
+</html>
