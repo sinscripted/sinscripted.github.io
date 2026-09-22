@@ -1,11 +1,17 @@
-DARROW / FILE 004 — HOMEPAGE FIX
+SINSCRIPTED — FILE 004 DARROW REBUILD
 
-Replace ONLY the repository-root /index.html with this file.
+Replace only:
+  /darrow/index.html
 
-Why this is needed:
-The Darrow package you uploaded correctly added /darrow/, but it did not include
-an updated Sinscripted homepage. The homepage therefore still stopped at FILE 003
-and showed FILE 004 as 'Next file'.
+Do NOT delete or replace /darrow/assets/. This rebuild deliberately reuses the Darrow artwork already uploaded.
 
-This replacement adds the Darrow card to the library and advances the teaser to FILE 005.
-It uses the existing /darrow/assets/darrow-card-480.webp already in your repo.
+What changed:
+- Rebuilt Darrow on the same Sinscripted visual system as Files 001–003.
+- Standard Sinscripted header/footer, shared stylesheet and shared site.js.
+- Shared Share story behavior + GoatCounter via /js/site.js.
+- Removed the separate microsite styling and direct Emochi button.
+- Preserved the existing Darrow story content, locations, character data and artwork.
+- Reorganized the page into cinematic story beats, one full Sadie dossier, semi-full supporting profiles, and the standard final-question block.
+- Mobile layouts and gutters match the newer Sinscripted pages.
+
+The root homepage already contains the Darrow FILE 004 card, so this package does not replace /index.html.
