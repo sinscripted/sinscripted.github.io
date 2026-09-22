@@ -1,0 +1,56 @@
+{
+  "title": "Darrow",
+  "file": "004",
+  "tagline": "EVERYBODY HEARD.",
+  "images": {
+    "hero": {
+      "src": "darrow-hero-960.webp",
+      "alt": "Sadie grips her yellow bicycle in shock while Trisha confronts the player in a crowded Darrow University plaza; Robert and Jamie stand behind them."
+    },
+    "campus": {
+      "desktop": "darrow-campus-desktop-1600.webp",
+      "mobile": "darrow-campus-mobile-960.webp",
+      "alt": "Darrow University campus with old stone buildings, trees, lawns and students moving between classes."
+    },
+    "student_union": {
+      "src": "student-union-960.webp",
+      "alt": "The interior of Darrow University Student Union with students, seating and familiar food counters."
+    },
+    "old_auditorium": {
+      "src": "old-auditorium-960.webp",
+      "alt": "Darrow University Old Auditorium at dusk, its stone entrance lit warmly as students cross the path outside."
+    },
+    "lowell_318": {
+      "src": "lowell-318-960.webp",
+      "alt": "Sadie's side of Lowell Dormitory room 318, with a Twin XL bed, study desk, biology book and a third-floor window view over treetops."
+    },
+    "after_dark": {
+      "src": "darrow-after-dark-960.webp",
+      "alt": "Downtown Darrow waterfront at night with restaurants, caf\u00e9s, students, harbor lights and the boardwalk beyond."
+    },
+    "sadie": {
+      "src": "sadie-keller-960.webp",
+      "alt": "Sadie Keller beside Daisy, her soft-yellow bicycle, on the Darrow University campus."
+    },
+    "jamie": {
+      "src": "jamie-dwyer-960.webp",
+      "alt": "Jamie Dwyer leaning casually on his motorized scooter outside Lowell Dormitory."
+    },
+    "trisha": {
+      "src": "trisha-saunders-960.webp",
+      "alt": "Trisha Saunders on the Darrow University campus carrying notebooks."
+    },
+    "robert": {
+      "src": "robert-bloom-960.webp",
+      "alt": "Robert Bloom wearing his Darrow University student ambassador lanyard on campus."
+    },
+    "molly": {
+      "src": "molly-sweeney-960.webp",
+      "alt": "Molly Sweeney grinning beside her messy red Ford Focus outside Lowell Dormitory."
+    },
+    "nicole": {
+      "src": "nicole-navarro-960.webp",
+      "alt": "Nicole Navarro sitting on a Darrow University bench with wired earbuds, iced coffee and study books."
+    }
+  }
+}
