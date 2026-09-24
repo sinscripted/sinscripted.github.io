@@ -1,4 +1,4 @@
-SINSCRIPTED — FILE 005 / PRINCESS ELODIE
+SINSCRIPTED — FILE 005 / FUTANARI PRINCESS ELODIE
 
 Upload the contents of this ZIP to the repository root.
 
@@ -13,8 +13,13 @@ The page uses the existing /css/styles.css and /js/site.js, so Share story and G
 The homepage teaser advances to FILE 006.
 
 Public page title used:
-Princess Elodie
+Futanari Princess Elodie
 Kicker:
 Ten Years in Alouette
 
 All sensitive anatomy/sexual canon is intentionally omitted from the public hub page.
+
+Revision notes:
+- Full public title corrected to Futanari Princess Elodie.
+- Supporting-character copy is now descriptive rather than prescribing exact future behavior.
+- Elodie's quiet-room image is used only for her dossier/profile.

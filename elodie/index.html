@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0a0d18">
   <meta name="description" content="Princess Elodie — Sinscripted File 005. Ten years in the storybook kingdom of Alouette, under the care of a princess who would rather keep you close.">
-  <title>Princess Elodie — Sinscripted File 005</title>
+  <title>Futanari Princess Elodie — Sinscripted File 005</title>
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Princess Elodie — Ten Years in Alouette">
+  <meta property="og:title" content="Futanari Princess Elodie — Ten Years in Alouette">
   <meta property="og:description" content="Every twenty years, Alouette draws two ordinary people from Earth. This time, you belong to Princess Elodie's household for ten years.">
   <meta property="og:url" content="https://sinscripted.github.io/elodie/">
   <meta property="og:image" content="https://sinscripted.github.io/assets/stories/elodie/og-1200x630.jpg">
@@ -266,11 +266,21 @@
 }
 .contrast-heading{width:min(820px,100%);margin:0 0 42px}
 .contrast-heading>p:last-child{max-width:720px;color:#bdc3cd}
-.contrast-grid{
+.contrast-feature{
   display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:24px;
+  grid-template-columns:minmax(430px,1.08fr) minmax(320px,.92fr);
+  gap:clamp(34px,6vw,74px);
+  align-items:center;
 }
+.contrast-copy h3{
+  margin:0 0 18px;
+  font-family:var(--serif);
+  font-size:clamp(44px,5.8vw,72px);
+  font-weight:500;
+  line-height:.98;
+  letter-spacing:-.03em;
+}
+.contrast-copy p:not(.eyebrow){color:#c5c9d1;font-size:16px}
 .life-card{
   position:relative;
   min-height:720px;
@@ -590,7 +600,7 @@
   .elodie-vignette{background:linear-gradient(to top,#090c15 0%,rgba(9,12,21,.12) 34%,transparent 62%)}
   .drawing-beat{grid-template-columns:1fr}
   .draught-section{grid-template-columns:1fr}
-  .contrast-grid,.world-tiles{grid-template-columns:1fr}
+  .contrast-feature,.world-tiles{grid-template-columns:1fr}
   .elodie-dossier{grid-template-columns:1fr}
   .elodie-portrait,.elodie-portrait img{min-height:700px}
   .support-profile,.support-profile.reverse{grid-template-columns:1fr}
@@ -626,7 +636,7 @@
   .world-copy p:not(.eyebrow){font-size:15px}
 
   .contrast-section{width:calc(100% - 24px);padding:28px 0 94px}
-  .contrast-grid{gap:18px}
+  .contrast-feature{gap:24px}
   .life-card{min-height:600px;border-radius:21px}
   .life-caption{left:20px;right:20px;bottom:20px}
 
@@ -686,7 +696,7 @@
       <div class="elodie-hero-copy reveal">
         <p class="eyebrow">Sinscripted / File 005</p>
         <span class="elodie-kicker">Ten Years in Alouette</span>
-        <h1>Princess Elodie</h1>
+        <h1>Futanari Princess Elodie</h1>
         <p class="elodie-lead">For ten years, you will live in a storybook kingdom beside a breathtakingly beautiful princess.</p>
         <p class="elodie-sublead">Alouette is eager to meet you. Elodie would rather keep you close to the quiet world she knows.</p>
         <div class="tag-row" aria-label="Story tags">
@@ -713,7 +723,7 @@
           <p class="eyebrow">The Drawing</p>
           <h2>Two ordinary people. One impossible arrival.</h2>
           <p>Every twenty years, Alouette deliberately draws two people from Earth. This time, Queen Kassandra’s daughters each take one Drawing Guest into their care.</p>
-          <p>Gwendolyn chooses Nicole first. That leaves you with the younger princess: Elodie.</p>
+          <p>By seniority, Gwendolyn is matched with Nicole, while Elodie becomes your Royal Sponsor.</p>
           <p class="ten-years">The return passage opens in ten years.</p>
         </div>
       </div>
@@ -738,7 +748,7 @@
         <div class="world-copy">
           <p class="eyebrow">Larkspur</p>
           <h2>The kingdom does not wait quietly outside the palace.</h2>
-          <p>Stone streets spill through flower-covered plazas, restaurants, shops, markets and fountains beneath the palace. Carriages move through the crowds. Balconies fill. Invitations arrive. Drawing Season turns two strangers from Earth into the capital’s favorite new subject.</p>
+          <p>Stone streets spill through flower-covered plazas, restaurants, shops, markets and fountains beneath the palace. Carriages move through the crowds, balconies fill, and Drawing Season brings heightened curiosity, celebration and social attention around the two new Guests.</p>
         </div>
       </div>
     </section>
@@ -750,24 +760,21 @@
         <p>Gwendolyn wants to show Nicole everything. Elodie’s instinct is to make a smaller world feel safe enough that you may not want to leave it.</p>
       </div>
 
-      <div class="contrast-grid">
+      <div class="contrast-feature">
         <figure class="life-card reveal">
           <img src="/assets/stories/elodie/gwendolyn-nicole.webp" alt="Gwendolyn and Nicole walking through a lively Larkspur street" loading="lazy">
           <figcaption class="life-caption">
             <span>Gwendolyn + Nicole</span>
-            <strong>Food, clothes, then city.</strong>
-            <p>Nicole throws herself into Alouette. Gwendolyn is delighted to help.</p>
+            <strong>A louder way into Alouette.</strong>
+            <p>Gwendolyn and Nicole embody the more outward-facing side of Drawing Season: novelty, city life, invitations and spontaneous discovery.</p>
           </figcaption>
         </figure>
-
-        <figure class="life-card reveal">
-          <img src="/assets/stories/elodie/elodie-dossier.webp" alt="Princess Elodie seated in her private rooms with letters, books and tea" loading="lazy">
-          <figcaption class="life-caption">
-            <span>Elodie</span>
-            <strong>Or we could stay somewhere quieter.</strong>
-            <p>Private rooms, terraces, gardens and familiar routines are the world Elodie understands best.</p>
-          </figcaption>
-        </figure>
+        <div class="contrast-copy reveal">
+          <p class="eyebrow">Elodie’s instinct</p>
+          <h3>Keep the world close enough to understand.</h3>
+          <p>Elodie is drawn toward private rooms, familiar company, careful plans and quieter alternatives. That does not decide the path of the story—it simply shapes the choices, tensions and possibilities around her.</p>
+          <p>Alouette remains open beyond the palace whether you stay near Elodie, venture outward, or move between both worlds.</p>
+        </div>
       </div>
     </section>
 
@@ -777,7 +784,7 @@
         <div class="season-copy">
           <p class="eyebrow">Drawing Season</p>
           <h2>For a few months, everyone wants a piece of the story.</h2>
-          <p>Balls, dinners, theater, exhibitions, races, private invitations and public curiosity gather around the new Drawing Guests. Elodie can retreat from attention. The kingdom will keep moving anyway.</p>
+          <p>Balls, dinners, theater, exhibitions, races, private invitations and public curiosity gather around the new Drawing Guests. Some experiences are formal, some spontaneous, and many remain completely optional.</p>
         </div>
       </div>
     </section>
@@ -851,7 +858,7 @@
               <div><dt>Guest</dt><dd>Nicole</dd></div>
               <div class="wide"><dt>Personality</dt><dd>Socially fearless · Perceptive · Irreverent · Decisive · Adventurous · Affectionate</dd></div>
             </dl>
-            <div class="support-note"><span>In the story</span><p>Gwendolyn makes plans, organizes outings, teases Elodie out of retreat and treats the entire kingdom as something worth experiencing now rather than later.</p></div>
+            <div class="support-note"><span>Story presence</span><p>Gwendolyn represents Alouette’s more adventurous, social side: confident, curious, irreverent and far more comfortable with spontaneity than Elodie.</p></div>
           </div>
         </article>
 
@@ -871,7 +878,7 @@
               <div><dt>Sponsor</dt><dd>Gwendolyn</dd></div>
               <div class="wide"><dt>Personality</dt><dd>Bubbly · Outgoing · Curious · Adaptable · Impulsive · Candid · Socially fearless</dd></div>
             </dl>
-            <div class="support-note"><span>In the story</span><p>Nicole explores, overshares, compares notes with you and keeps providing a living example of everything happening outside Elodie’s preferred orbit.</p></div>
+            <div class="support-note"><span>Story presence</span><p>Nicole is the other Drawing Guest: outgoing, adaptable and eager for novelty, giving the world an Earth-born perspective very different from Elodie’s palace-raised one.</p></div>
           </div>
         </article>
 
@@ -891,7 +898,7 @@
               <div><dt>Eyes</dt><dd>Amber</dd></div>
               <div class="wide"><dt>Personality</dt><dd>Analytical · Composed · Inquisitive · Patient · Frank · Quietly intense</dd></div>
             </dl>
-            <div class="support-note"><span>In the story</span><p>Orla examines, measures and studies how Drawing Guests respond to Alouette, following unexpected differences with the enthusiasm of someone who has waited twenty years for new data.</p></div>
+            <div class="support-note"><span>Story presence</span><p>Orla connects the Drawing Guests to Alouette’s rare true magic, combining clinical curiosity with deep familiarity with the Drawing and acclimation process.</p></div>
           </div>
         </article>
 
@@ -911,7 +918,7 @@
               <div><dt>Authority</dt><dd>Drawing Accord · Royal Sponsorship</dd></div>
               <div class="wide"><dt>Personality</dt><dd>Composed · Pragmatic · Perceptive · Disciplined · Decisive · Formidable · Dryly affectionate</dd></div>
             </dl>
-            <div class="support-note"><span>In the story</span><p>Kassandra expects her daughters to carry their responsibilities without constant supervision, but remains the person who decides exceptional requests, disputes and sponsorship questions.</p></div>
+            <div class="support-note"><span>Story presence</span><p>Kassandra is the sovereign authority behind the Drawing Accord and Royal Sponsorship, balancing Crown responsibility with the practical realities of hosting two people from another world.</p></div>
           </div>
         </article>
 
@@ -931,7 +938,7 @@
               <div><dt>Household</dt><dd>Princess Elodie</dd></div>
               <div class="wide"><dt>Personality</dt><dd>Composed · Practical · Discreet · Exacting · Unflappable · Quietly warm</dd></div>
             </dl>
-            <div class="support-note"><span>In the story</span><p>Agatha manages your rooms, clothing, meals, invitations and preparations inside Elodie’s household—and quietly solves problems before either of you has to ask.</p></div>
+            <div class="support-note"><span>Story presence</span><p>Agatha anchors the practical side of Elodie’s household: schedules, rooms, clothing, meals, servants, preparations and the everyday machinery of palace life.</p></div>
           </div>
         </article>
       </div>
@@ -941,9 +948,9 @@
       <div class="final-question-inner">
         <p class="eyebrow">File 005</p>
         <p class="tension-line">You have ten years in Alouette.</p>
-        <p class="tension-line">The kingdom is eager to show you everything.</p>
-        <p class="tension-line accent">Elodie would rather keep you close.</p>
-        <h2>How large will your world become?</h2>
+        <p class="tension-line">The kingdom is full of places, people and possibilities.</p>
+        <p class="tension-line accent">Elodie feels safest when the world stays close.</p>
+        <h2>What will ten years become?</h2>
         <p class="platform-note">Playable on Emochi</p>
         <div class="card-actions centered"><a class="button ghost" href="/">Back to Sinscripted</a></div>
       </div>
@@ -952,7 +959,7 @@
 
   <footer class="site-footer">
     <span>© <span id="year"></span> Sinscripted</span>
-    <span>FILE 005 / PRINCESS ELODIE</span>
+    <span>FILE 005 / FUTANARI PRINCESS ELODIE</span>
   </footer>
 
   <script src="/js/site.js?v=3.3"></script>
