@@ -1,0 +1,960 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0d18">
+  <meta name="description" content="Princess Elodie — Sinscripted File 005. Ten years in the storybook kingdom of Alouette, under the care of a princess who would rather keep you close.">
+  <title>Princess Elodie — Sinscripted File 005</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Princess Elodie — Ten Years in Alouette">
+  <meta property="og:description" content="Every twenty years, Alouette draws two ordinary people from Earth. This time, you belong to Princess Elodie's household for ten years.">
+  <meta property="og:url" content="https://sinscripted.github.io/elodie/">
+  <meta property="og:image" content="https://sinscripted.github.io/assets/stories/elodie/og-1200x630.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/brand/sinscripted-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css?v=3.1">
+<style id="file-005-inline-v1">
+.elodie-page{
+  --royal-blue:#456fb9;
+  --royal-blue-soft:#91b7ef;
+  --royal-gold:#d2ad55;
+  --royal-gold-soft:#f0d996;
+  --ivory:#f6f0df;
+  --world-muted:#bbc3d0;
+  background:
+    radial-gradient(circle at 12% 7%,rgba(64,106,184,.16),transparent 30rem),
+    radial-gradient(circle at 87% 17%,rgba(207,168,77,.10),transparent 30rem),
+    #090c15;
+}
+.elodie-page main{overflow:hidden}
+.elodie-page .story-nav{
+  z-index:60;
+  background:linear-gradient(to bottom,rgba(7,10,18,.95),rgba(7,10,18,.48),transparent);
+}
+.elodie-page .eyebrow{color:var(--royal-gold-soft)}
+
+.elodie-hero{
+  min-height:910px;
+  display:grid;
+  grid-template-columns:minmax(340px,.84fr) minmax(470px,1.16fr);
+  align-items:stretch;
+  overflow:hidden;
+  border-bottom:1px solid rgba(210,173,85,.14);
+  background:radial-gradient(circle at 23% 36%,rgba(48,82,141,.17),transparent 30rem),#090c15;
+}
+.elodie-hero-copy{
+  position:relative;
+  z-index:3;
+  align-self:center;
+  padding:92px clamp(30px,6vw,96px);
+}
+.elodie-kicker{
+  display:block;
+  margin:0 0 10px;
+  color:var(--royal-blue-soft);
+  font-family:var(--serif);
+  font-size:clamp(29px,3.4vw,46px);
+  font-style:italic;
+  font-weight:500;
+  line-height:1;
+}
+.elodie-hero-copy h1{
+  margin:0 0 31px;
+  max-width:760px;
+  font-family:var(--serif);
+  font-size:clamp(76px,8.6vw,126px);
+  font-weight:500;
+  line-height:.84;
+  letter-spacing:-.048em;
+}
+.elodie-lead{
+  max-width:670px;
+  margin:0 0 15px;
+  color:#f5f1e8;
+  font-family:var(--serif);
+  font-size:clamp(29px,3.1vw,42px);
+  line-height:1.08;
+}
+.elodie-sublead{
+  max-width:620px;
+  margin:0 0 26px;
+  color:#c3c8d2;
+  font-size:15px;
+}
+.elodie-hero-art{
+  position:relative;
+  margin:0;
+  min-height:910px;
+  overflow:hidden;
+  background:#101522;
+}
+.elodie-hero-art img{
+  width:100%;
+  height:100%;
+  min-height:910px;
+  object-fit:cover;
+  object-position:center 23%;
+}
+.elodie-vignette{
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:
+    linear-gradient(90deg,#090c15 0%,rgba(9,12,21,.44) 10%,transparent 34%),
+    linear-gradient(to top,rgba(9,12,21,.68),transparent 34%);
+}
+.model-note{
+  max-width:620px;
+  margin-top:24px;
+  padding:16px 18px;
+  border:1px solid rgba(210,173,85,.18);
+  border-radius:16px;
+  background:rgba(210,173,85,.045);
+}
+.model-note strong{
+  display:block;
+  margin-bottom:4px;
+  color:#efd98d;
+  font-size:11px;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+}
+.model-note span{
+  display:block;
+  color:#aeb7c5;
+  font-size:13px;
+  line-height:1.5;
+}
+
+.alouette-section{
+  width:min(1280px,calc(100% - 44px));
+  margin:0 auto;
+  padding:112px 0;
+}
+.drawing-beat{
+  display:grid;
+  grid-template-columns:minmax(400px,1.08fr) minmax(330px,.82fr);
+  align-items:center;
+  overflow:hidden;
+  border:1px solid rgba(145,183,239,.16);
+  border-radius:30px;
+  background:
+    radial-gradient(circle at 100% 0%,rgba(74,112,178,.15),transparent 28rem),
+    rgba(255,255,255,.018);
+  box-shadow:0 34px 90px rgba(0,0,0,.43);
+}
+.drawing-art{
+  margin:0;
+  min-height:710px;
+  height:100%;
+  overflow:hidden;
+}
+.drawing-art img{
+  width:100%;
+  height:100%;
+  min-height:710px;
+  object-fit:cover;
+  object-position:center;
+}
+.drawing-copy{padding:clamp(36px,6vw,76px)}
+.drawing-copy h2,
+.draught-copy h2,
+.world-copy h2,
+.contrast-heading h2,
+.cast-heading h2{
+  margin:0 0 20px;
+  font-family:var(--serif);
+  font-size:clamp(50px,6.5vw,84px);
+  font-weight:500;
+  line-height:.98;
+  letter-spacing:-.035em;
+}
+.drawing-copy p:not(.eyebrow),
+.draught-copy p:not(.eyebrow),
+.world-copy p:not(.eyebrow){
+  color:var(--world-muted);
+  font-size:16px;
+}
+.drawing-copy .ten-years{
+  margin:24px 0 0;
+  color:#f1df9e;
+  font-family:var(--serif);
+  font-size:27px;
+  line-height:1.16;
+}
+
+.draught-section{
+  width:min(1180px,calc(100% - 44px));
+  margin:0 auto;
+  padding:12px 0 116px;
+  display:grid;
+  grid-template-columns:minmax(300px,.72fr) minmax(430px,1.28fr);
+  gap:clamp(40px,7vw,90px);
+  align-items:center;
+}
+.draught-copy{padding:12px 0}
+.draught-visual{
+  position:relative;
+  min-height:560px;
+  margin:0;
+  overflow:hidden;
+  border:1px solid rgba(210,173,85,.14);
+  border-radius:26px;
+  box-shadow:0 30px 78px rgba(0,0,0,.38);
+}
+.draught-visual img{width:100%;height:100%;min-height:560px;object-fit:cover}
+.draught-caption{
+  position:absolute;
+  left:22px;right:22px;bottom:20px;
+  z-index:2;
+  padding-top:40px;
+  color:#e8e4d8;
+  font-size:12px;
+  letter-spacing:.04em;
+  text-shadow:0 2px 15px rgba(0,0,0,.75);
+}
+.draught-visual:after{
+  content:"";
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(7,10,17,.80),transparent 40%);
+}
+
+.world-section{
+  width:min(1360px,calc(100% - 24px));
+  margin:0 auto;
+  padding:8px 0 118px;
+}
+.world-panel{
+  position:relative;
+  min-height:780px;
+  overflow:hidden;
+  border:1px solid rgba(145,183,239,.14);
+  border-radius:30px;
+  box-shadow:0 35px 90px rgba(0,0,0,.43);
+}
+.world-panel>img{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+.world-panel:after{
+  content:"";
+  position:absolute;inset:0;
+  background:
+    linear-gradient(90deg,rgba(7,10,18,.92) 0%,rgba(7,10,18,.58) 42%,rgba(7,10,18,.05) 72%),
+    linear-gradient(to top,rgba(7,10,18,.72),transparent 46%);
+}
+.world-copy{
+  position:relative;
+  z-index:2;
+  width:min(650px,100%);
+  min-height:780px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:clamp(44px,7vw,92px);
+}
+.world-copy h2{color:#faf7ef}
+.world-copy p:not(.eyebrow){color:#d3d7df}
+
+.contrast-section{
+  width:min(1280px,calc(100% - 34px));
+  margin:0 auto;
+  padding:30px 0 124px;
+}
+.contrast-heading{width:min(820px,100%);margin:0 0 42px}
+.contrast-heading>p:last-child{max-width:720px;color:#bdc3cd}
+.contrast-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px;
+}
+.life-card{
+  position:relative;
+  min-height:720px;
+  margin:0;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,.11);
+  border-radius:28px;
+  background:#111522;
+  box-shadow:0 28px 78px rgba(0,0,0,.39);
+}
+.life-card img{
+  position:absolute;inset:0;
+  width:100%;height:100%;object-fit:cover
+}
+.life-card:after{
+  content:"";
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(7,9,16,.92) 0%,rgba(7,9,16,.20) 48%,transparent 72%);
+}
+.life-caption{
+  position:absolute;
+  z-index:2;
+  left:28px;right:28px;bottom:26px;
+}
+.life-caption span{
+  display:block;
+  margin-bottom:5px;
+  color:#efd98d;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.17em;
+  text-transform:uppercase;
+}
+.life-caption strong{
+  display:block;
+  color:#fffaf0;
+  font-family:var(--serif);
+  font-size:clamp(31px,3.5vw,47px);
+  font-weight:500;
+  line-height:1.02;
+}
+.life-caption p{margin:9px 0 0;color:#d0d2d8;font-size:13px}
+
+.season-section{
+  width:min(1360px,calc(100% - 24px));
+  margin:0 auto;
+  padding:8px 0 122px;
+}
+.season-panel{
+  position:relative;
+  min-height:760px;
+  overflow:hidden;
+  border:1px solid rgba(210,173,85,.14);
+  border-radius:30px;
+  box-shadow:0 35px 90px rgba(0,0,0,.44);
+}
+.season-panel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.season-panel:after{
+  content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(90deg,rgba(7,9,15,.88) 0%,rgba(7,9,15,.58) 37%,rgba(7,9,15,.08) 67%),
+    linear-gradient(to top,rgba(7,9,15,.68),transparent 55%);
+}
+.season-copy{
+  position:relative;z-index:2;
+  width:min(620px,100%);
+  min-height:760px;
+  display:flex;flex-direction:column;justify-content:center;
+  padding:clamp(44px,7vw,92px);
+}
+.season-copy h2{
+  margin:0 0 18px;
+  color:#fff9ed;
+  font-family:var(--serif);
+  font-size:clamp(54px,7vw,88px);
+  font-weight:500;
+  line-height:.96;
+  letter-spacing:-.035em;
+}
+.season-copy p:not(.eyebrow){color:#d8d7d3;font-size:16px}
+
+.world-tiles{
+  width:min(1280px,calc(100% - 34px));
+  margin:0 auto;
+  padding:10px 0 130px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px;
+}
+.world-tile{
+  position:relative;
+  min-height:680px;
+  margin:0;
+  overflow:hidden;
+  border:1px solid rgba(145,183,239,.13);
+  border-radius:28px;
+  box-shadow:0 28px 78px rgba(0,0,0,.38);
+}
+.world-tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.world-tile:after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(7,9,15,.92) 0%,rgba(7,9,15,.17) 48%,transparent 72%);
+}
+.world-tile figcaption{position:absolute;z-index:2;left:26px;right:26px;bottom:24px}
+.world-tile strong{
+  display:block;color:#fff8eb;font-family:var(--serif);
+  font-size:clamp(31px,3.5vw,46px);font-weight:500;line-height:1.02
+}
+.world-tile span{display:block;margin-top:6px;color:#cbd0d8;font-size:12px}
+
+/* Elodie primary dossier */
+.dossier-section{padding:72px 24px 126px}
+.elodie-dossier{
+  width:min(1300px,100%);
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:minmax(370px,.92fr) minmax(430px,1.08fr);
+  overflow:hidden;
+  border:1px solid rgba(210,173,85,.20);
+  border-radius:32px;
+  background:
+    radial-gradient(circle at 86% 12%,rgba(66,111,183,.14),transparent 30rem),
+    linear-gradient(145deg,rgba(24,27,39,.98),rgba(9,11,18,.99));
+  box-shadow:0 42px 100px rgba(0,0,0,.48);
+}
+.elodie-portrait{
+  position:relative;
+  margin:0;
+  min-height:820px;
+  overflow:hidden;
+  background:#111522;
+}
+.elodie-portrait img{
+  width:100%;height:100%;min-height:820px;
+  object-fit:cover;object-position:center 18%
+}
+.elodie-portrait:after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(7,9,15,.84),transparent 30%);
+}
+.elodie-portrait figcaption{
+  position:absolute;z-index:2;left:24px;right:24px;bottom:20px;
+  color:#ded8c7;font-size:11px;letter-spacing:.14em;text-transform:uppercase
+}
+.elodie-dossier-copy{align-self:center;padding:clamp(42px,6vw,78px)}
+.dossier-code{
+  margin:0 0 15px;color:var(--royal-gold);
+  font-size:10px;font-weight:700;letter-spacing:.19em;text-transform:uppercase
+}
+.elodie-dossier-copy h2{
+  margin:0 0 18px;font-family:var(--serif);
+  font-size:clamp(70px,8.4vw,108px);
+  font-weight:500;line-height:.84;letter-spacing:-.044em
+}
+.dossier-deck{
+  max-width:620px;margin:0 0 32px;color:#e1d9c3;
+  font-family:var(--serif);font-size:clamp(24px,2.6vw,34px);
+  font-style:italic;line-height:1.16
+}
+.dossier-grid{
+  margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  border-top:1px solid rgba(210,173,85,.15);
+  border-left:1px solid rgba(210,173,85,.15)
+}
+.dossier-grid>div{
+  min-height:98px;padding:17px 18px;
+  border-right:1px solid rgba(210,173,85,.15);
+  border-bottom:1px solid rgba(210,173,85,.15)
+}
+.dossier-grid .wide{grid-column:1/-1}
+.dossier-grid dt{
+  margin:0 0 6px;color:#b59e63;font-size:10px;font-weight:700;
+  letter-spacing:.17em;text-transform:uppercase
+}
+.dossier-grid dd{
+  margin:0;color:#f4f0e6;font-family:var(--serif);
+  font-size:21px;line-height:1.18
+}
+.dossier-personality{
+  margin-top:25px;padding-top:22px;
+  border-top:1px solid rgba(210,173,85,.13)
+}
+.dossier-personality span{
+  color:#b59e63;font-size:10px;font-weight:700;
+  letter-spacing:.17em;text-transform:uppercase
+}
+.dossier-personality p{margin:8px 0 0;max-width:650px;color:#cfd2d8;font-size:15px}
+
+/* supporting cast */
+.cast-section{
+  width:min(1280px,calc(100% - 32px));
+  margin:0 auto;
+  padding:68px 0 128px;
+}
+.cast-heading{width:min(810px,100%);margin:0 0 46px}
+.cast-heading>p:last-child{max-width:730px;color:#bdc2cc;font-size:16px}
+.supporting-stack{display:grid;gap:28px}
+.support-profile{
+  display:grid;
+  grid-template-columns:minmax(320px,.78fr) minmax(430px,1.22fr);
+  overflow:hidden;
+  border:1px solid rgba(145,183,239,.15);
+  border-radius:28px;
+  background:
+    radial-gradient(circle at 100% 0%,rgba(65,99,157,.10),transparent 26rem),
+    rgba(255,255,255,.018);
+  box-shadow:0 28px 78px rgba(0,0,0,.38);
+}
+.support-profile.reverse{grid-template-columns:minmax(430px,1.22fr) minmax(320px,.78fr)}
+.support-profile.reverse .support-portrait{order:2}
+.support-profile.reverse .support-copy{order:1}
+.support-portrait{
+  position:relative;margin:0;min-height:585px;overflow:hidden;background:#101522
+}
+.support-portrait img{
+  width:100%;height:100%;min-height:585px;
+  object-fit:cover;object-position:center 18%
+}
+.support-portrait:after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(7,9,15,.73),transparent 29%)
+}
+.support-portrait figcaption{
+  position:absolute;z-index:2;left:20px;right:20px;bottom:17px;
+  color:#d6d7d8;font-size:10px;letter-spacing:.14em;text-transform:uppercase
+}
+.support-copy{align-self:center;padding:clamp(32px,5vw,62px)}
+.support-code{
+  margin:0 0 10px;color:#a9bce0;font-size:10px;font-weight:700;
+  letter-spacing:.17em;text-transform:uppercase
+}
+.support-copy h3{
+  margin:0 0 7px;font-family:var(--serif);
+  font-size:clamp(52px,5vw,72px);font-weight:500;line-height:.9
+}
+.support-title{
+  margin:0 0 25px;color:#ddd7c8;font-family:var(--serif);
+  font-size:22px;font-style:italic
+}
+.support-facts{
+  margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  border-top:1px solid rgba(145,183,239,.13);
+  border-left:1px solid rgba(145,183,239,.13)
+}
+.support-facts>div{
+  min-height:77px;padding:13px 14px;
+  border-right:1px solid rgba(145,183,239,.13);
+  border-bottom:1px solid rgba(145,183,239,.13)
+}
+.support-facts .wide{grid-column:1/-1}
+.support-facts dt{
+  margin:0 0 4px;color:#8fa6c7;font-size:9px;font-weight:700;
+  letter-spacing:.15em;text-transform:uppercase
+}
+.support-facts dd{
+  margin:0;color:#f0eee8;font-family:var(--serif);
+  font-size:18px;line-height:1.16
+}
+.support-note{
+  margin-top:20px;padding-top:18px;
+  border-top:1px solid rgba(145,183,239,.11)
+}
+.support-note span{
+  color:#8fa6c7;font-size:9px;font-weight:700;
+  letter-spacing:.16em;text-transform:uppercase
+}
+.support-note p{margin:6px 0 0;color:#c5c9d1;font-size:14px;line-height:1.6}
+.support-profile.gwendolyn{
+  border-color:rgba(174,69,65,.22);
+  background:radial-gradient(circle at 100% 0%,rgba(137,49,49,.12),transparent 28rem),rgba(255,255,255,.018)
+}
+.support-profile.nicole{border-color:rgba(95,126,159,.19)}
+.support-profile.orla{
+  border-color:rgba(105,140,190,.20);
+  background:radial-gradient(circle at 100% 0%,rgba(54,102,169,.11),transparent 28rem),rgba(255,255,255,.018)
+}
+.support-profile.kassandra{
+  border-color:rgba(210,173,85,.20);
+  background:radial-gradient(circle at 100% 0%,rgba(164,117,50,.09),transparent 28rem),rgba(255,255,255,.018)
+}
+.support-profile.agatha{
+  border-color:rgba(154,120,88,.18);
+  background:radial-gradient(circle at 100% 0%,rgba(121,87,58,.08),transparent 28rem),rgba(255,255,255,.018)
+}
+
+.final-question{
+  position:relative;
+  overflow:hidden;
+  padding:140px 28px 150px;
+  text-align:center;
+  border-top:1px solid rgba(210,173,85,.13);
+  background:
+    radial-gradient(circle at center,rgba(64,104,176,.13),transparent 32rem),
+    linear-gradient(rgba(7,9,16,.76),rgba(7,9,16,.96)),
+    url('/assets/brand/nebula-secondary.png') center/cover no-repeat;
+}
+.final-question-inner{position:relative;z-index:2;width:min(900px,100%);margin:0 auto}
+.tension-line{
+  margin:4px 0;color:#c9ced8;font-family:var(--serif);
+  font-size:clamp(25px,4vw,42px)
+}
+.tension-line.accent{color:#f1dda0}
+.final-question h2{
+  margin:32px 0 26px;font-family:var(--serif);
+  font-size:clamp(68px,9vw,116px);font-weight:500;line-height:.9;letter-spacing:-.045em
+}
+.platform-note{
+  margin:0 0 20px;color:#c6b574;font-size:12px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;text-align:center
+}
+
+@media(max-width:980px){
+  .elodie-hero{min-height:0;grid-template-columns:1fr}
+  .elodie-hero-art{order:1;min-height:min(76vh,760px)}
+  .elodie-hero-art img{min-height:min(76vh,760px)}
+  .elodie-hero-copy{order:2;padding:58px 28px 78px}
+  .elodie-vignette{background:linear-gradient(to top,#090c15 0%,rgba(9,12,21,.12) 34%,transparent 62%)}
+  .drawing-beat{grid-template-columns:1fr}
+  .draught-section{grid-template-columns:1fr}
+  .contrast-grid,.world-tiles{grid-template-columns:1fr}
+  .elodie-dossier{grid-template-columns:1fr}
+  .elodie-portrait,.elodie-portrait img{min-height:700px}
+  .support-profile,.support-profile.reverse{grid-template-columns:1fr}
+  .support-profile.reverse .support-portrait,.support-profile.reverse .support-copy{order:initial}
+}
+@media(max-width:620px){
+  .elodie-page .site-header{padding-inline:18px}
+  .elodie-hero-copy{padding:44px 20px 66px}
+  .elodie-kicker{font-size:27px}
+  .elodie-hero-copy h1{font-size:clamp(62px,19vw,88px)}
+  .elodie-lead{font-size:29px}
+  .elodie-sublead{font-size:14px;line-height:1.6}
+  .elodie-hero-art,.elodie-hero-art img{min-height:570px}
+
+  .alouette-section{width:calc(100% - 24px);padding:76px 0}
+  .drawing-beat{border-radius:21px}
+  .drawing-art,.drawing-art img{min-height:500px}
+  .drawing-copy{padding:31px 22px 36px}
+  .drawing-copy h2,.draught-copy h2,.world-copy h2,.contrast-heading h2,.cast-heading h2{font-size:49px}
+
+  .draught-section{width:calc(100% - 28px);padding:8px 0 88px;gap:27px}
+  .draught-visual,.draught-visual img{min-height:460px;border-radius:21px}
+
+  .world-section{width:calc(100% - 20px);padding:4px 0 88px}
+  .world-panel{min-height:650px;border-radius:21px}
+  .world-panel:after{
+    background:linear-gradient(to top,rgba(7,10,18,.96) 0%,rgba(7,10,18,.62) 48%,rgba(7,10,18,.08) 80%)
+  }
+  .world-copy{
+    min-height:650px;width:100%;justify-content:flex-end;
+    padding:34px 22px
+  }
+  .world-copy p:not(.eyebrow){font-size:15px}
+
+  .contrast-section{width:calc(100% - 24px);padding:28px 0 94px}
+  .contrast-grid{gap:18px}
+  .life-card{min-height:600px;border-radius:21px}
+  .life-caption{left:20px;right:20px;bottom:20px}
+
+  .season-section{width:calc(100% - 20px);padding:4px 0 94px}
+  .season-panel{min-height:650px;border-radius:21px}
+  .season-panel:after{
+    background:linear-gradient(to top,rgba(7,9,15,.95) 0%,rgba(7,9,15,.58) 49%,rgba(7,9,15,.08) 79%)
+  }
+  .season-copy{
+    min-height:650px;width:100%;justify-content:flex-end;padding:34px 22px
+  }
+  .season-copy h2{font-size:52px}
+
+  .world-tiles{width:calc(100% - 24px);padding:8px 0 96px;gap:18px}
+  .world-tile{min-height:560px;border-radius:21px}
+
+  .dossier-section{padding:48px 14px 90px}
+  .elodie-dossier{border-radius:22px}
+  .elodie-portrait,.elodie-portrait img{min-height:520px}
+  .elodie-dossier-copy{padding:31px 20px 38px}
+  .elodie-dossier-copy h2{font-size:65px}
+  .dossier-deck{font-size:24px}
+  .dossier-grid>div{min-height:86px;padding:14px 12px}
+  .dossier-grid dt{font-size:8px}
+  .dossier-grid dd{font-size:18px}
+  .dossier-personality p{font-size:14px}
+
+  .cast-section{width:calc(100% - 24px);padding:54px 0 96px}
+  .support-profile{border-radius:21px}
+  .support-portrait,.support-portrait img{min-height:500px}
+  .support-copy{padding:28px 20px 34px}
+  .support-copy h3{font-size:54px}
+  .support-title{font-size:21px}
+  .support-facts>div{min-height:72px;padding:12px 10px}
+  .support-facts dt{font-size:8px}
+  .support-facts dd{font-size:17px}
+  .support-note p{font-size:13px}
+
+  .final-question{padding:98px 20px 110px}
+  .final-question h2{font-size:70px}
+}
+</style>
+</head>
+<body class="elodie-page">
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header compact story-nav">
+    <a class="brand" href="/" aria-label="Back to Sinscripted">
+      <img class="brand-mark-img" src="/assets/brand/sinscripted-mark.svg" alt="">
+      <span class="brand-text">Sinscripted</span>
+    </a>
+    <a class="back-link" href="/">← Library</a>
+  </header>
+
+  <main>
+    <section class="elodie-hero">
+      <div class="elodie-hero-copy reveal">
+        <p class="eyebrow">Sinscripted / File 005</p>
+        <span class="elodie-kicker">Ten Years in Alouette</span>
+        <h1>Princess Elodie</h1>
+        <p class="elodie-lead">For ten years, you will live in a storybook kingdom beside a breathtakingly beautiful princess.</p>
+        <p class="elodie-sublead">Alouette is eager to meet you. Elodie would rather keep you close to the quiet world she knows.</p>
+        <div class="tag-row" aria-label="Story tags">
+          <span>Fairytale Romance</span><span>Living World</span><span>Royal Sponsorship</span>
+        </div>
+        <div class="model-note" aria-label="Model compatibility note">
+          <strong>Model note</strong>
+          <span>Green Apple minimum · Pomegranate/Flagship recommended. Lower models may loop or lose continuity. Vanilla Free users should play the Lite Version.</span>
+        </div>
+      </div>
+
+      <figure class="elodie-hero-art reveal">
+        <img src="/assets/stories/elodie/poster.webp" alt="Princess Elodie in an ivory and gold gown in the gardens of Alouette's royal palace">
+        <div class="elodie-vignette" aria-hidden="true"></div>
+      </figure>
+    </section>
+
+    <section class="alouette-section">
+      <div class="drawing-beat reveal">
+        <figure class="drawing-art">
+          <img src="/assets/stories/elodie/drawing-chamber.webp" alt="The Drawing Chamber as two people from Earth arrive before the royal family, guards and attendants" loading="lazy">
+        </figure>
+        <div class="drawing-copy">
+          <p class="eyebrow">The Drawing</p>
+          <h2>Two ordinary people. One impossible arrival.</h2>
+          <p>Every twenty years, Alouette deliberately draws two people from Earth. This time, Queen Kassandra’s daughters each take one Drawing Guest into their care.</p>
+          <p>Gwendolyn chooses Nicole first. That leaves you with the younger princess: Elodie.</p>
+          <p class="ten-years">The return passage opens in ten years.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="draught-section">
+      <div class="draught-copy reveal">
+        <p class="eyebrow">Acclimation</p>
+        <h2>The first magic tastes sweet. Then bitter.</h2>
+        <p>Orla’s Acclimation Draught makes Alouette’s spoken language effortless and permanently prepares a Drawing Guest for life in the realm.</p>
+        <p>Reading, writing, customs and everything else still have to be learned the ordinary way.</p>
+      </div>
+      <figure class="draught-visual reveal">
+        <img src="/assets/stories/elodie/acclimation.webp" alt="Two glasses of pale-gold Acclimation Draught among magical instruments and notes" loading="lazy">
+        <figcaption class="draught-caption">Acclimation Draught · Immediate · Permanent</figcaption>
+      </figure>
+    </section>
+
+    <section class="world-section">
+      <div class="world-panel reveal">
+        <img src="/assets/stories/elodie/larkspur-day.webp" alt="Larkspur, the bustling fairytale capital of Alouette beneath the royal palace" loading="lazy">
+        <div class="world-copy">
+          <p class="eyebrow">Larkspur</p>
+          <h2>The kingdom does not wait quietly outside the palace.</h2>
+          <p>Stone streets spill through flower-covered plazas, restaurants, shops, markets and fountains beneath the palace. Carriages move through the crowds. Balconies fill. Invitations arrive. Drawing Season turns two strangers from Earth into the capital’s favorite new subject.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contrast-section">
+      <div class="contrast-heading reveal">
+        <p class="eyebrow">Two Royal Sponsors</p>
+        <h2>Two very different ways to spend ten years.</h2>
+        <p>Gwendolyn wants to show Nicole everything. Elodie’s instinct is to make a smaller world feel safe enough that you may not want to leave it.</p>
+      </div>
+
+      <div class="contrast-grid">
+        <figure class="life-card reveal">
+          <img src="/assets/stories/elodie/gwendolyn-nicole.webp" alt="Gwendolyn and Nicole walking through a lively Larkspur street" loading="lazy">
+          <figcaption class="life-caption">
+            <span>Gwendolyn + Nicole</span>
+            <strong>Food, clothes, then city.</strong>
+            <p>Nicole throws herself into Alouette. Gwendolyn is delighted to help.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="life-card reveal">
+          <img src="/assets/stories/elodie/elodie-dossier.webp" alt="Princess Elodie seated in her private rooms with letters, books and tea" loading="lazy">
+          <figcaption class="life-caption">
+            <span>Elodie</span>
+            <strong>Or we could stay somewhere quieter.</strong>
+            <p>Private rooms, terraces, gardens and familiar routines are the world Elodie understands best.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="season-section">
+      <div class="season-panel reveal">
+        <img src="/assets/stories/elodie/drawing-season-ball.webp" alt="A crowded Drawing Season ball in the royal palace with Elodie, Gwendolyn and Nicole among the guests" loading="lazy">
+        <div class="season-copy">
+          <p class="eyebrow">Drawing Season</p>
+          <h2>For a few months, everyone wants a piece of the story.</h2>
+          <p>Balls, dinners, theater, exhibitions, races, private invitations and public curiosity gather around the new Drawing Guests. Elodie can retreat from attention. The kingdom will keep moving anyway.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="world-tiles">
+      <figure class="world-tile reveal">
+        <img src="/assets/stories/elodie/larkspur-night.webp" alt="Larkspur after dark with theaters, restaurants, carriages, musicians and crowded streets" loading="lazy">
+        <figcaption>
+          <strong>Larkspur after dark</strong>
+          <span>Theaters · Restaurants · Music · Carriages · Drawing Season crowds</span>
+        </figcaption>
+      </figure>
+
+      <figure class="world-tile reveal">
+        <img src="/assets/stories/elodie/wilds.webp" alt="The magical wilderness beyond Alouette's protected roads and settlements" loading="lazy">
+        <figcaption>
+          <strong>Beyond the wards</strong>
+          <span>Protected roads end · Ruins, forests and dangerous magical wildlife remain</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="dossier-section">
+      <article class="elodie-dossier reveal">
+        <figure class="elodie-portrait">
+          <img src="/assets/stories/elodie/elodie-dossier.webp" alt="Princess Elodie seated privately with letters, books and tea" loading="lazy">
+          <figcaption>Princess Elodie · Second Princess of Alouette</figcaption>
+        </figure>
+        <div class="elodie-dossier-copy">
+          <p class="dossier-code">SINSCRIPTED / FILE 005 · SUBJECT A</p>
+          <h2>Elodie</h2>
+          <p class="dossier-deck">A princess trained for public life who is happiest when the world becomes small, familiar and private.</p>
+          <dl class="dossier-grid">
+            <div><dt>Age</dt><dd>19</dd></div>
+            <div><dt>Height</dt><dd>171 cm</dd></div>
+            <div><dt>Title</dt><dd>Second Princess of Alouette</dd></div>
+            <div><dt>Eyes</dt><dd>Sapphire blue</dd></div>
+            <div><dt>Scent</dt><dd>Rosewater · orange blossom</dd></div>
+            <div><dt>Role</dt><dd>Your Royal Sponsor</dd></div>
+            <div class="wide"><dt>Preferred world</dt><dd>Private rooms · terraces · secluded gardens · familiar company</dd></div>
+          </dl>
+          <div class="dossier-personality">
+            <span>Personality</span>
+            <p>Gentle · Sincere · Warm-hearted · Conscientious · Curious · Protective · Quietly capable</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="cast-section">
+      <div class="cast-heading reveal">
+        <p class="eyebrow">Inside Alouette</p>
+        <h2>The world around Elodie is already in motion.</h2>
+        <p>Family, household staff, magical specialists and the other Drawing Guest keep creating reasons for the quiet world around you to become larger.</p>
+      </div>
+
+      <div class="supporting-stack">
+        <article class="support-profile gwendolyn reveal">
+          <figure class="support-portrait">
+            <img src="/assets/stories/elodie/gwendolyn.webp" alt="First Princess Gwendolyn in burgundy and gold at the royal palace" loading="lazy">
+            <figcaption>Gwendolyn · First Princess of Alouette</figcaption>
+          </figure>
+          <div class="support-copy">
+            <p class="support-code">Heir to Alouette</p>
+            <h3>Gwendolyn</h3>
+            <p class="support-title">Elodie’s older sister, Nicole’s Royal Sponsor, and the person most likely to drag everyone somewhere interesting.</p>
+            <dl class="support-facts">
+              <div><dt>Age</dt><dd>24</dd></div>
+              <div><dt>Height</dt><dd>180 cm</dd></div>
+              <div><dt>Title</dt><dd>First Princess · Heir</dd></div>
+              <div><dt>Guest</dt><dd>Nicole</dd></div>
+              <div class="wide"><dt>Personality</dt><dd>Socially fearless · Perceptive · Irreverent · Decisive · Adventurous · Affectionate</dd></div>
+            </dl>
+            <div class="support-note"><span>In the story</span><p>Gwendolyn makes plans, organizes outings, teases Elodie out of retreat and treats the entire kingdom as something worth experiencing now rather than later.</p></div>
+          </div>
+        </article>
+
+        <article class="support-profile nicole reverse reveal">
+          <figure class="support-portrait">
+            <img src="/assets/stories/elodie/nicole.webp" alt="Nicole, a Drawing Guest from Earth, in modern clothes at the royal palace" loading="lazy">
+            <figcaption>Nicole · Drawing Guest from Earth</figcaption>
+          </figure>
+          <div class="support-copy">
+            <p class="support-code">Drawing Guest</p>
+            <h3>Nicole</h3>
+            <p class="support-title">The other person pulled from Earth—and the one determined to see as much of Alouette as possible.</p>
+            <dl class="support-facts">
+              <div><dt>Age</dt><dd>23</dd></div>
+              <div><dt>Height</dt><dd>167 cm</dd></div>
+              <div><dt>From</dt><dd>Earth</dd></div>
+              <div><dt>Sponsor</dt><dd>Gwendolyn</dd></div>
+              <div class="wide"><dt>Personality</dt><dd>Bubbly · Outgoing · Curious · Adaptable · Impulsive · Candid · Socially fearless</dd></div>
+            </dl>
+            <div class="support-note"><span>In the story</span><p>Nicole explores, overshares, compares notes with you and keeps providing a living example of everything happening outside Elodie’s preferred orbit.</p></div>
+          </div>
+        </article>
+
+        <article class="support-profile orla reveal">
+          <figure class="support-portrait">
+            <img src="/assets/stories/elodie/orla.webp" alt="Orla, palace magical specialist, holding a blue vial in her workroom" loading="lazy">
+            <figcaption>Orla · Palace Magical Specialist</figcaption>
+          </figure>
+          <div class="support-copy">
+            <p class="support-code">Royal Magic</p>
+            <h3>Orla</h3>
+            <p class="support-title">The rare true spellcaster responsible for the Drawing, the Acclimation Draught and the questions that follow.</p>
+            <dl class="support-facts">
+              <div><dt>Age</dt><dd>41</dd></div>
+              <div><dt>Height</dt><dd>172 cm</dd></div>
+              <div><dt>Role</dt><dd>Palace Magical Specialist</dd></div>
+              <div><dt>Eyes</dt><dd>Amber</dd></div>
+              <div class="wide"><dt>Personality</dt><dd>Analytical · Composed · Inquisitive · Patient · Frank · Quietly intense</dd></div>
+            </dl>
+            <div class="support-note"><span>In the story</span><p>Orla examines, measures and studies how Drawing Guests respond to Alouette, following unexpected differences with the enthusiasm of someone who has waited twenty years for new data.</p></div>
+          </div>
+        </article>
+
+        <article class="support-profile kassandra reverse reveal">
+          <figure class="support-portrait">
+            <img src="/assets/stories/elodie/kassandra.webp" alt="Queen Kassandra in blue, red and gold state dress on the palace steps" loading="lazy">
+            <figcaption>Kassandra · Queen of Alouette</figcaption>
+          </figure>
+          <div class="support-copy">
+            <p class="support-code">The Crown</p>
+            <h3>Kassandra</h3>
+            <p class="support-title">Sovereign of Alouette, mother of both princesses, and final authority over the Drawing Guests.</p>
+            <dl class="support-facts">
+              <div><dt>Age</dt><dd>49</dd></div>
+              <div><dt>Height</dt><dd>178 cm</dd></div>
+              <div><dt>Title</dt><dd>Queen of Alouette</dd></div>
+              <div><dt>Authority</dt><dd>Drawing Accord · Royal Sponsorship</dd></div>
+              <div class="wide"><dt>Personality</dt><dd>Composed · Pragmatic · Perceptive · Disciplined · Decisive · Formidable · Dryly affectionate</dd></div>
+            </dl>
+            <div class="support-note"><span>In the story</span><p>Kassandra expects her daughters to carry their responsibilities without constant supervision, but remains the person who decides exceptional requests, disputes and sponsorship questions.</p></div>
+          </div>
+        </article>
+
+        <article class="support-profile agatha reveal">
+          <figure class="support-portrait">
+            <img src="/assets/stories/elodie/agatha.webp" alt="Agatha, Elodie's head attendant, overseeing preparations in a royal dressing room" loading="lazy">
+            <figcaption>Agatha · Elodie’s Head Attendant</figcaption>
+          </figure>
+          <div class="support-copy">
+            <p class="support-code">Elodie’s Household</p>
+            <h3>Agatha</h3>
+            <p class="support-title">The woman who turns royal life into schedules, rooms, clothing, meals and everything that actually has to get done.</p>
+            <dl class="support-facts">
+              <div><dt>Age</dt><dd>46</dd></div>
+              <div><dt>Height</dt><dd>170 cm</dd></div>
+              <div><dt>Role</dt><dd>Head Attendant</dd></div>
+              <div><dt>Household</dt><dd>Princess Elodie</dd></div>
+              <div class="wide"><dt>Personality</dt><dd>Composed · Practical · Discreet · Exacting · Unflappable · Quietly warm</dd></div>
+            </dl>
+            <div class="support-note"><span>In the story</span><p>Agatha manages your rooms, clothing, meals, invitations and preparations inside Elodie’s household—and quietly solves problems before either of you has to ask.</p></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="final-question reveal">
+      <div class="final-question-inner">
+        <p class="eyebrow">File 005</p>
+        <p class="tension-line">You have ten years in Alouette.</p>
+        <p class="tension-line">The kingdom is eager to show you everything.</p>
+        <p class="tension-line accent">Elodie would rather keep you close.</p>
+        <h2>How large will your world become?</h2>
+        <p class="platform-note">Playable on Emochi</p>
+        <div class="card-actions centered"><a class="button ghost" href="/">Back to Sinscripted</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Sinscripted</span>
+    <span>FILE 005 / PRINCESS ELODIE</span>
+  </footer>
+
+  <script src="/js/site.js?v=3.3"></script>
+</body>
+</html>
